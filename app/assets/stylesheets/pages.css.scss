@@ -2,8 +2,26 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
+.navbar-brand {
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 28px;
+}
+
+.main {
+    background: gray;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    font-family: Roboto, sans-serif;
+    font-weight: 100;
+}
+
 .page-footer {
-    padding-top: 9px;
-    margin: 20px 0px 40px;
+    padding-top: 29px;
+    margin: 20px 0px 40px 0px;
     border-top: 1px solid #EEE;
+}
+
+.copyright {
+    font-size: 10px;
 }
