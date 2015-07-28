@@ -13,3 +13,19 @@
  *= require_tree .
  *= require_self
  */
+
+.navbar-brand {
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 28px;
+}
+
+.page-footer {
+    padding-top: 29px;
+    margin: 20px 0px 40px 0px;
+    border-top: 1px solid #EEE;
+}
+
+.copyright {
+    font-size: 10px;
+}

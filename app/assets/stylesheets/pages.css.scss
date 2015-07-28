@@ -2,12 +2,7 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
-.navbar-brand {
-    font-family: 'Roboto', sans-serif;
-    font-weight: bold;
-    font-size: 28px;
-}
-
+// For Welcome page
 .main {
     background: gray;
     padding-top: 100px;
@@ -16,12 +11,34 @@
     font-weight: 100;
 }
 
-.page-footer {
-    padding-top: 29px;
-    margin: 20px 0px 40px 0px;
-    border-top: 1px solid #EEE;
+//  For Portfolio page
+// unslider
+.banner { 
+    position: relative;
+    overflow: auto;
+    background: #444;
+}
+.banner img {
+    height: 500px;
+    width: auto;
 }
 
-.copyright {
-    font-size: 10px;
+.banner li {
+    list-style: none; 
+}
+
+.banner ul li { 
+    float: left; 
+}
+
+
+// projects
+.project {
+    padding-top: 20px;
+    padding-left: 60px;
+    padding-right: 60px;
+}
+
+.proj-item {
+    padding: 20px;
 }
